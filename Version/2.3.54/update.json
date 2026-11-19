@@ -1,0 +1,17 @@
+{
+  "name": "Mannschaft",
+  "version": "2.3.54",
+  "homepage": "https://wdmin.com/plugins/feuer-mannschaft/",
+  "download_url": "https://wdmin.com/plugins/feuer-mannschaft/release/2.3.54/feuer-mannschaft.zip",
+  "author": "<a href=\"https://wdmin.com\">Walter Faerber</a>",
+  "author_profile": "https://wdmin.com",
+  "requires": "6.0",
+  "requires_php": "8.0",
+  "tested": "",
+  "last_updated": "2026-04-30 17:55:00",
+  "sections": {
+    "description": "<p>Mannschaft verwaltet Mitgliederprofile als normale WordPress-Beitraege inklusive Galerie, Archivierung, Listenfeldern und Frontend-Templates.</p>",
+    "installation": "<ol><li>ZIP-Datei <code>feuer-mannschaft.zip</code> in den versionsbezogenen Ordner <code>https://wdmin.com/plugins/feuer-mannschaft/release/2.3.54/</code> hochladen.</li><li><code>update.json</code> im Hauptordner <code>https://wdmin.com/plugins/feuer-mannschaft/</code> aktualisieren.</li><li>Im WordPress-Backend auf der Plugin-Seite die Aktualisierung manuell ausfuehren.</li></ol>",
+    "changelog": "<h4>2.3.54</h4><ul><li>Die sichtbare Plugin-Bezeichnung im WordPress-Admin wurde auf Mannschaft verkuerzt.</li><li>Menues, Einstellungsseiten, Admin-Hinweise und Update-Meldungen verwenden jetzt den neuen Namen.</li><li>Slug, Dateinamen, Update-URLs und Ordnerstruktur bleiben unveraendert.</li></ul>"
+  }
+}

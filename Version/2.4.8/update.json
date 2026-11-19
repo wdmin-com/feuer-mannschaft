@@ -1,0 +1,18 @@
+{
+    "name":  "Feuer-Mannschaft",
+    "version":  "2.4.8",
+    "homepage":  "https://wdmin.com/plugins/feuer-mannschaft/",
+    "download_url":  "https://wdmin.com/plugins/feuer-mannschaft/release/2.4.8/feuer-mannschaft.zip",
+    "package_sha256":  "fb2c4845dc9799450990137e74ef225671a378f9f32b6eb65c74e375d80c7fb9",
+    "author":  "\u003ca href=\"https://wdmin.com\"\u003eWalter Faerber\u003c/a\u003e",
+    "author_profile":  "https://wdmin.com",
+    "requires":  "7.1",
+    "requires_php":  "8.1",
+    "tested":  "7.1.3",
+    "last_updated":  "2026-11-02 00:50:51",
+    "sections":  {
+                     "description":  "\u003cp\u003eFeuer-Mannschaft 2.4.8 verwaltet isolierte Teilnehmerprofile, Organisation, Medien, Import und Export. Als Standardvorlage fuer Teilnehmerlisten dient Team Raster.\u003c/p\u003e",
+                     "installation":  "\u003col\u003e\u003cli\u003eZIP-Datei \u003ccode\u003efeuer-mannschaft.zip\u003c/code\u003e hochladen.\u003c/li\u003e\u003cli\u003ePlugin aktivieren oder aktualisieren.\u003c/li\u003e\u003cli\u003eVor einem Produktivimport zuerst Dry Run und Backup ausfuehren.\u003c/li\u003e\u003c/ol\u003e",
+                     "changelog":  "\u003ch4\u003e2.4.8\u003c/h4\u003e\u003cul\u003e\u003cli\u003eTeam Raster ist jetzt die Standardvorlage fuer Teilnehmerlisten.\u003c/li\u003e\u003cli\u003eBestehende Standardwerte werden bei der Aktualisierung einmalig angepasst; explizite Shortcode-Vorlagen bleiben erhalten.\u003c/li\u003e\u003c/ul\u003e"
+                 }
+}

@@ -1,0 +1,18 @@
+{
+    "name":  "Feuer-Mannschaft",
+    "version":  "2.3.83",
+    "homepage":  "https://wdmin.com/plugins/feuer-mannschaft/",
+    "download_url":  "https://wdmin.com/plugins/feuer-mannschaft/release/2.3.83/feuer-mannschaft.zip",
+    "package_sha256":  "d6e62446a0ff0cc56abed23f3eefb477fdbed28913f11b0ca6a3543010d41c34",
+    "author":  "\u003ca href=\"https://wdmin.com\"\u003eWalter Faerber\u003c/a\u003e",
+    "author_profile":  "https://wdmin.com",
+    "requires":  "7.1",
+    "requires_php":  "8.1",
+    "tested":  "7.1.3",
+    "last_updated":  "2026-10-17 18:12:31",
+    "sections":  {
+                     "description":  "\u003cp\u003eMannschaft verwaltet Teilnehmerprofile als isolierten WordPress-Inhaltstyp mit Medien, VerknР В Р’В Р вЂ™Р’В Р В РІР‚в„ўР вЂ™Р’В Р В Р’В Р Р†Р вЂљРІвЂћСћР В РІР‚в„ўР вЂ™Р’В Р В Р’В Р вЂ™Р’В Р В Р’В Р Р†Р вЂљР’В Р В Р’В Р вЂ™Р’В Р В Р вЂ Р В РІР‚С™Р РЋРІвЂћСћР В Р’В Р В Р вЂ№Р В Р Р‹Р Р†РІР‚С›РЎС›Р В Р’В Р вЂ™Р’В Р В РІР‚в„ўР вЂ™Р’В Р В Р’В Р вЂ™Р’В Р В Р’В Р Р†Р вЂљРІвЂћвЂ“Р В Р’В Р вЂ™Р’В Р В Р вЂ Р В РІР‚С™Р Р†РІР‚С›РЎС›Р В Р’В Р Р†Р вЂљРІвЂћСћР В РІР‚в„ўР вЂ™Р’Вpfungen, Archivierung, Import, Rollen und Frontend-Templates.\u003c/p\u003e",
+                     "installation":  "\u003col\u003e\u003cli\u003eZIP-Datei \u003ccode\u003efeuer-mannschaft.zip\u003c/code\u003e hochladen.\u003c/li\u003e\u003cli\u003ePlugin aktivieren oder aktualisieren.\u003c/li\u003e\u003cli\u003ePermalinks einmal speichern, falls der Profilpfad geР В Р’В Р вЂ™Р’В Р В РІР‚в„ўР вЂ™Р’В Р В Р’В Р Р†Р вЂљРІвЂћСћР В РІР‚в„ўР вЂ™Р’В Р В Р’В Р вЂ™Р’В Р В Р’В Р Р†Р вЂљР’В Р В Р’В Р вЂ™Р’В Р В Р вЂ Р В РІР‚С™Р РЋРІвЂћСћР В Р’В Р В Р вЂ№Р В Р Р‹Р Р†РІР‚С›РЎС›Р В Р’В Р вЂ™Р’В Р В РІР‚в„ўР вЂ™Р’В Р В Р’В Р В РІР‚В Р В Р’В Р Р†Р вЂљРЎв„ўР В Р вЂ Р Р†Р вЂљРЎвЂєР РЋРЎвЂєР В Р’В Р вЂ™Р’В Р В Р вЂ Р В РІР‚С™Р Р†РІР‚С›РЎС›Р В Р’В Р Р†Р вЂљРІвЂћСћР В РІР‚в„ўР вЂ™Р’В¤ndert wurde.\u003c/li\u003e\u003c/ol\u003e",
+                     "changelog":  "\u003ch4\u003e2.3.83\u003c/h4\u003e\u003cul\u003e\u003cli\u003eAutomatische IntegritР В Р’В Р вЂ™Р’В Р В РІР‚в„ўР вЂ™Р’В Р В Р’В Р Р†Р вЂљРІвЂћСћР В РІР‚в„ўР вЂ™Р’В Р В Р’В Р вЂ™Р’В Р В Р’В Р Р†Р вЂљР’В Р В Р’В Р вЂ™Р’В Р В Р вЂ Р В РІР‚С™Р РЋРІвЂћСћР В Р’В Р В Р вЂ№Р В Р Р‹Р Р†РІР‚С›РЎС›Р В Р’В Р вЂ™Р’В Р В РІР‚в„ўР вЂ™Р’В Р В Р’В Р В РІР‚В Р В Р’В Р Р†Р вЂљРЎв„ўР В Р вЂ Р Р†Р вЂљРЎвЂєР РЋРЎвЂєР В Р’В Р вЂ™Р’В Р В Р вЂ Р В РІР‚С™Р Р†РІР‚С›РЎС›Р В Р’В Р Р†Р вЂљРІвЂћСћР В РІР‚в„ўР вЂ™Р’В¤tsprР В Р’В Р вЂ™Р’В Р В РІР‚в„ўР вЂ™Р’В Р В Р’В Р Р†Р вЂљРІвЂћСћР В РІР‚в„ўР вЂ™Р’В Р В Р’В Р вЂ™Р’В Р В Р’В Р Р†Р вЂљР’В Р В Р’В Р вЂ™Р’В Р В Р вЂ Р В РІР‚С™Р РЋРІвЂћСћР В Р’В Р В Р вЂ№Р В Р Р‹Р Р†РІР‚С›РЎС›Р В Р’В Р вЂ™Р’В Р В РІР‚в„ўР вЂ™Р’В Р В Р’В Р вЂ™Р’В Р В Р’В Р Р†Р вЂљРІвЂћвЂ“Р В Р’В Р вЂ™Р’В Р В Р вЂ Р В РІР‚С™Р Р†РІР‚С›РЎС›Р В Р’В Р Р†Р вЂљРІвЂћСћР В РІР‚в„ўР вЂ™Р’Вfung, optionale Berichte und geplante Sicherungen.\u003c/li\u003e\u003cli\u003eAbgeschlossenes Ausbaupaket 2.3.69 bis 2.3.83 fР В Р’В Р вЂ™Р’В Р В РІР‚в„ўР вЂ™Р’В Р В Р’В Р Р†Р вЂљРІвЂћСћР В РІР‚в„ўР вЂ™Р’В Р В Р’В Р вЂ™Р’В Р В Р’В Р Р†Р вЂљР’В Р В Р’В Р вЂ™Р’В Р В Р вЂ Р В РІР‚С™Р РЋРІвЂћСћР В Р’В Р В Р вЂ№Р В Р Р‹Р Р†РІР‚С›РЎС›Р В Р’В Р вЂ™Р’В Р В РІР‚в„ўР вЂ™Р’В Р В Р’В Р вЂ™Р’В Р В Р’В Р Р†Р вЂљРІвЂћвЂ“Р В Р’В Р вЂ™Р’В Р В Р вЂ Р В РІР‚С™Р Р†РІР‚С›РЎС›Р В Р’В Р Р†Р вЂљРІвЂћСћР В РІР‚в„ўР вЂ™Р’Вr WordPress 7.1.3 und PHP 8.1.\u003c/li\u003e\u003c/ul\u003e\u003ch4\u003e2.3.82\u003c/h4\u003e\u003cul\u003e\u003cli\u003eSEO, Open Graph, Canonical, Breadcrumbs und strukturierte Person-Daten.\u003c/li\u003e\u003c/ul\u003e"
+                 }
+}

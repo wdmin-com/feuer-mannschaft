@@ -1,0 +1,18 @@
+{
+  "name": "Feuer-Mannschaft",
+  "version": "2.4.9",
+  "homepage": "https://wdmin.com/plugins/feuer-mannschaft/",
+  "download_url": "https://wdmin.com/plugins/feuer-mannschaft/release/2.4.9/feuer-mannschaft.zip",
+  "package_sha256": "3eaea63ce2702976d9e4b8e7b584880d1716b06111b3372a259955aaad325ec4",
+  "author": "<a href=\"https://wdmin.com\">Walter Faerber</a>",
+  "author_profile": "https://wdmin.com",
+  "requires": "7.1",
+  "requires_php": "8.1",
+  "tested": "7.1.3",
+  "last_updated": "2026-11-02 16:42:24",
+  "sections": {
+    "description": "<p>Feuer-Mannschaft verwaltet Teilnehmerprofile und Ausgaben für WordPress. Karten- und Listenstile greifen unabhängig von Theme-Body-Klassen.</p>",
+    "installation": "<ol><li>ZIP-Datei <code>feuer-mannschaft.zip</code> hochladen.</li><li>Plugin aktivieren oder aktualisieren.</li><li>Vor einem Produktivimport zuerst Dry Run und Backup ausfuehren.</li></ol>",
+    "changelog": "<h4>2.4.9</h4><ul><li>Kartenstile und Textoptionen werden direkt am Listenbereich ausgegeben und funktionieren damit auch ohne Theme-Body-Klassen.</li><li>Kartenbild-Breite und -Höhe steuern jetzt das tatsächlich verwendete Profilbild.</li></ul><h4>2.4.8</h4><ul><li>Team Raster ist jetzt die Standardvorlage für Teilnehmerlisten.</li><li>Bestehende Standardwerte werden bei der Aktualisierung einmalig angepasst; explizite Shortcode-Vorlagen bleiben erhalten.</li></ul>"
+  }
+}

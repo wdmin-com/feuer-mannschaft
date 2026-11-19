@@ -1,0 +1,19 @@
+<?php
+
+if (! defined('ABSPATH')) {
+    exit;
+}
+?>
+<article class="feuer-mannschaft-team-card text-center mx-auto">
+    <a href="<?php echo esc_url($profile_url); ?>" class="d-block mb-4 js-feuer-mannschaft-profile-link" aria-label="<?php echo esc_attr($name); ?>">
+        <?php echo $this->get_member_visual_markup($member_id, 'medium_large', 'feuer-mannschaft-team-image'); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+    </a>
+    <h2 class="h5 mb-1<?php echo ! empty($title_class) ? ' ' . esc_attr($title_class) : ''; ?>"<?php echo ! empty($title_style) ? ' style="' . esc_attr($title_style) . '"' : ''; ?>>
+        <a href="<?php echo esc_url($profile_url); ?>" class="text-decoration-none text-dark js-feuer-mannschaft-profile-link<?php echo ! empty($title_class) ? ' ' . esc_attr($title_class) : ''; ?>"<?php echo ! empty($title_style) ? ' style="' . esc_attr($title_style) . '"' : ''; ?>>
+            <?php echo esc_html($name); ?>
+        </a>
+    </h2>
+    <?php if ($role_caption) : ?>
+        <span class="d-block text-muted"><?php echo esc_html($role_caption); ?></span>
+    <?php endif; ?>
+</article>

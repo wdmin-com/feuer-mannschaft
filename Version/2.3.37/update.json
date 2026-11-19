@@ -1,0 +1,17 @@
+{
+  "name": "Feuer-Mannschaft",
+  "version": "2.3.37",
+  "homepage": "https://wdmin.com/plugins/feuer-mannschaft/",
+  "download_url": "https://wdmin.com/plugins/feuer-mannschaft/release/2.3.37/feuer-mannschaft.zip",
+  "author": "<a href=\"https://wdmin.com\">Walter Faerber</a>",
+  "author_profile": "https://wdmin.com",
+  "requires": "6.0",
+  "requires_php": "8.0",
+  "tested": "",
+  "last_updated": "2026-04-19 12:45:00",
+  "sections": {
+    "description": "<p>Feuer-Mannschaft verwaltet Mitgliederprofile als normale WordPress-Beitraege inklusive Galerie, Archivierung, Listenfeldern und Frontend-Templates.</p>",
+    "installation": "<ol><li>ZIP-Datei <code>feuer-mannschaft.zip</code> in den versionsbezogenen Ordner <code>https://wdmin.com/plugins/feuer-mannschaft/release/2.3.37/</code> hochladen.</li><li><code>update.json</code> im Hauptordner <code>https://wdmin.com/plugins/feuer-mannschaft/</code> aktualisieren.</li><li>Im WordPress-Backend auf der Plugin-Seite die Aktualisierung ausfuehren.</li></ol>",
+    "changelog": "<h4>2.3.37</h4><ul><li>Die Listenansicht auf der Website wurde optisch neu gefasst und nutzt jetzt eigene, stabile Komponenten statt theme-abhaengiger Hilfsklassen.</li><li>Header, Mitgliederkarten, Rollenlabel und Profilbutton der Listenansicht wurden klarer gestaltet.</li><li>Die mobile Darstellung der Listenansicht bleibt kompakt mit Bild links, Inhalten rechts und Button in voller Breite darunter.</li></ul>"
+  }
+}

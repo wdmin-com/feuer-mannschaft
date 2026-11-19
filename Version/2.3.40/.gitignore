@@ -1,0 +1,17 @@
+# Betriebssystem
+.DS_Store
+Thumbs.db
+
+# Editoren
+.idea/
+.vscode/
+
+# Build-Artefakte
+release/
+*.zip
+usage-registry-config.php
+usage-registry-data.php
+
+# Lokale Cache-Dateien
+*.tmp
+*.bak

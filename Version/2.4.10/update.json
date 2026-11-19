@@ -1,0 +1,18 @@
+{
+  "name": "Feuer-Mannschaft",
+  "version": "2.4.10",
+  "homepage": "https://wdmin.com/plugins/feuer-mannschaft/",
+  "download_url": "https://wdmin.com/plugins/feuer-mannschaft/release/2.4.10/feuer-mannschaft.zip",
+  "package_sha256": "b34ccdab449abdd8c16420bd012bff3f4c4968c359b39145cc7e1ff9169a28e3",
+  "author": "<a href=\"https://wdmin.com\">Walter Faerber</a>",
+  "author_profile": "https://wdmin.com",
+  "requires": "7.1",
+  "requires_php": "8.1",
+  "tested": "7.1.3",
+  "last_updated": "2026-11-02 16:53:10",
+  "sections": {
+    "description": "<p>Feuer-Mannschaft verwaltet Teilnehmerprofile und Ausgaben für WordPress. Karten-, Listen- und Profilansichten lassen sich zuverlässig über die Einstellungen gestalten.</p>",
+    "installation": "<ol><li>ZIP-Datei <code>feuer-mannschaft.zip</code> hochladen.</li><li>Plugin aktivieren oder aktualisieren.</li><li>Vor einem Produktivimport zuerst Dry Run und Backup ausfuehren.</li></ol>",
+    "changelog": "<h4>2.4.10</h4><ul><li>Kartenformat, Kartenstil, Ecken, Namensgröße und Sichtbarkeit der Kartenfelder werden direkt am Listenblock angewendet.</li><li>Profilbildhöhe greift jetzt auch im Standardprofil und in dessen Galerie-Slider.</li><li>Einstellungsseite für Listen- und Profilgestaltung mit gruppierten Optionen und Live-Vorschau überarbeitet.</li><li>Bildabdunklung und Textposition als Einstellungen für Fotokarten klar gekennzeichnet.</li></ul><h4>2.4.9</h4><ul><li>Kartenstile und Textoptionen werden direkt am Listenbereich ausgegeben und funktionieren damit auch ohne Theme-Body-Klassen.</li><li>Kartenbild-Breite und -Höhe steuern jetzt das tatsächlich verwendete Profilbild.</li></ul>"
+  }
+}

@@ -1,0 +1,1725 @@
+.feuer-mannschaft-archive-page,
+.feuer-mannschaft-single-page {
+    --fm-gutter-x: 1.5rem;
+    --fm-gutter-y: 0;
+    --fm-border-color: #dee2e6;
+    --fm-text-color: #1f2937;
+    --fm-muted-color: #6c757d;
+    --fm-surface-color: #ffffff;
+    --fm-primary-color: #b22222;
+    --fm-primary-color-hover: #8b1c1c;
+    --fm-primary-contrast: #ffffff;
+    --fm-shadow-sm: 0 12px 30px rgba(15, 23, 42, 0.08);
+}
+
+.feuer-mannschaft-archive-page *,
+.feuer-mannschaft-single-page * {
+    box-sizing: border-box;
+}
+
+.feuer-mannschaft-archive-page .container,
+.feuer-mannschaft-single-page .container {
+    width: 100%;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.feuer-mannschaft-archive-page .row,
+.feuer-mannschaft-single-page .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--fm-gutter-y) * -1);
+    margin-right: calc(var(--fm-gutter-x) * -0.5);
+    margin-left: calc(var(--fm-gutter-x) * -0.5);
+}
+
+.feuer-mannschaft-archive-page .row > *,
+.feuer-mannschaft-single-page .row > * {
+    width: 100%;
+    max-width: 100%;
+    padding-top: var(--fm-gutter-y);
+    padding-right: calc(var(--fm-gutter-x) * 0.5);
+    padding-left: calc(var(--fm-gutter-x) * 0.5);
+}
+
+.feuer-mannschaft-archive-page .g-0,
+.feuer-mannschaft-single-page .g-0 {
+    --fm-gutter-x: 0;
+    --fm-gutter-y: 0;
+}
+
+.feuer-mannschaft-archive-page .g-3,
+.feuer-mannschaft-single-page .g-3 {
+    --fm-gutter-x: 1rem;
+    --fm-gutter-y: 1rem;
+}
+
+.feuer-mannschaft-archive-page .g-4,
+.feuer-mannschaft-single-page .g-4 {
+    --fm-gutter-x: 1.5rem;
+    --fm-gutter-y: 1.5rem;
+}
+
+.feuer-mannschaft-single-page .gy-4,
+.feuer-mannschaft-archive-page .gy-4 {
+    --fm-gutter-y: 1.5rem;
+}
+
+.feuer-mannschaft-archive-page .col-12,
+.feuer-mannschaft-single-page .col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.feuer-mannschaft-archive-page .col-4,
+.feuer-mannschaft-single-page .col-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+
+.feuer-mannschaft-archive-page .col-8,
+.feuer-mannschaft-single-page .col-8 {
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+}
+
+.feuer-mannschaft-archive-page .row-cols-1 > *,
+.feuer-mannschaft-single-page .row-cols-1 > * {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.feuer-mannschaft-archive-page .d-block,
+.feuer-mannschaft-single-page .d-block {
+    display: block;
+}
+
+.feuer-mannschaft-archive-page .d-flex,
+.feuer-mannschaft-single-page .d-flex {
+    display: flex;
+}
+
+.feuer-mannschaft-archive-page .flex-column,
+.feuer-mannschaft-single-page .flex-column {
+    flex-direction: column;
+}
+
+.feuer-mannschaft-archive-page .flex-wrap,
+.feuer-mannschaft-single-page .flex-wrap {
+    flex-wrap: wrap;
+}
+
+.feuer-mannschaft-archive-page .justify-content-center,
+.feuer-mannschaft-single-page .justify-content-center {
+    justify-content: center;
+}
+
+.feuer-mannschaft-archive-page .justify-content-between,
+.feuer-mannschaft-single-page .justify-content-between {
+    justify-content: space-between;
+}
+
+.feuer-mannschaft-archive-page .align-items-center,
+.feuer-mannschaft-single-page .align-items-center {
+    align-items: center;
+}
+
+.feuer-mannschaft-archive-page .align-items-start,
+.feuer-mannschaft-single-page .align-items-start {
+    align-items: flex-start;
+}
+
+.feuer-mannschaft-archive-page .text-center,
+.feuer-mannschaft-single-page .text-center {
+    text-align: center;
+}
+
+.feuer-mannschaft-archive-page .text-decoration-none,
+.feuer-mannschaft-single-page .text-decoration-none {
+    text-decoration: none;
+}
+
+.feuer-mannschaft-archive-page .text-dark,
+.feuer-mannschaft-single-page .text-dark {
+    color: #111827;
+}
+
+.feuer-mannschaft-archive-page .text-muted,
+.feuer-mannschaft-single-page .text-muted {
+    color: var(--fm-muted-color);
+}
+
+.feuer-mannschaft-archive-page .text-uppercase,
+.feuer-mannschaft-single-page .text-uppercase {
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.feuer-mannschaft-archive-page .fw-bold,
+.feuer-mannschaft-single-page .fw-bold {
+    font-weight: 700;
+}
+
+.feuer-mannschaft-archive-page .fw-semibold,
+.feuer-mannschaft-single-page .fw-semibold {
+    font-weight: 600;
+}
+
+.feuer-mannschaft-archive-page .lead,
+.feuer-mannschaft-single-page .lead {
+    font-size: 1.125rem;
+    line-height: 1.65;
+}
+
+.feuer-mannschaft-archive-page .display-5,
+.feuer-mannschaft-single-page .display-5 {
+    font-size: clamp(2rem, 3vw, 3rem);
+    line-height: 1.1;
+}
+
+.feuer-mannschaft-archive-page .display-6,
+.feuer-mannschaft-single-page .display-6 {
+    font-size: clamp(1.75rem, 2.5vw, 2.5rem);
+    line-height: 1.15;
+}
+
+.feuer-mannschaft-archive-page .h2,
+.feuer-mannschaft-single-page .h2 {
+    font-size: 1.75rem;
+    line-height: 1.2;
+}
+
+.feuer-mannschaft-archive-page .h4,
+.feuer-mannschaft-single-page .h4 {
+    font-size: 1.5rem;
+    line-height: 1.3;
+}
+
+.feuer-mannschaft-archive-page .h5,
+.feuer-mannschaft-single-page .h5 {
+    font-size: 1.125rem;
+    line-height: 1.35;
+}
+
+.feuer-mannschaft-archive-page .small,
+.feuer-mannschaft-single-page .small {
+    font-size: 0.875rem;
+}
+
+.feuer-mannschaft-archive-page .w-100,
+.feuer-mannschaft-single-page .w-100 {
+    width: 100%;
+}
+
+.feuer-mannschaft-archive-page .h-100,
+.feuer-mannschaft-single-page .h-100 {
+    height: 100%;
+}
+
+.feuer-mannschaft-archive-page .img-fluid,
+.feuer-mannschaft-single-page .img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.feuer-mannschaft-archive-page .object-fit-cover,
+.feuer-mannschaft-single-page .object-fit-cover {
+    object-fit: cover;
+}
+
+.feuer-mannschaft-archive-page .overflow-hidden,
+.feuer-mannschaft-single-page .overflow-hidden {
+    overflow: hidden;
+}
+
+.feuer-mannschaft-archive-page .mx-auto,
+.feuer-mannschaft-single-page .mx-auto {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.feuer-mannschaft-archive-page .mt-auto,
+.feuer-mannschaft-single-page .mt-auto {
+    margin-top: auto;
+}
+
+.feuer-mannschaft-archive-page .m-0,
+.feuer-mannschaft-single-page .m-0 {
+    margin: 0;
+}
+
+.feuer-mannschaft-archive-page .mb-0,
+.feuer-mannschaft-single-page .mb-0 {
+    margin-bottom: 0;
+}
+
+.feuer-mannschaft-archive-page .mb-1,
+.feuer-mannschaft-single-page .mb-1 {
+    margin-bottom: 0.25rem;
+}
+
+.feuer-mannschaft-archive-page .mb-2,
+.feuer-mannschaft-single-page .mb-2 {
+    margin-bottom: 0.5rem;
+}
+
+.feuer-mannschaft-archive-page .mb-3,
+.feuer-mannschaft-single-page .mb-3 {
+    margin-bottom: 1rem;
+}
+
+.feuer-mannschaft-archive-page .mb-4,
+.feuer-mannschaft-single-page .mb-4 {
+    margin-bottom: 1.5rem;
+}
+
+.feuer-mannschaft-archive-page .mb-5,
+.feuer-mannschaft-single-page .mb-5 {
+    margin-bottom: 3rem;
+}
+
+.feuer-mannschaft-archive-page .mt-0,
+.feuer-mannschaft-single-page .mt-0 {
+    margin-top: 0;
+}
+
+.feuer-mannschaft-archive-page .mt-4,
+.feuer-mannschaft-single-page .mt-4 {
+    margin-top: 1.5rem;
+}
+
+.feuer-mannschaft-archive-page .mt-5,
+.feuer-mannschaft-single-page .mt-5 {
+    margin-top: 3rem;
+}
+
+.feuer-mannschaft-archive-page .my-3,
+.feuer-mannschaft-single-page .my-3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.feuer-mannschaft-archive-page .p-0,
+.feuer-mannschaft-single-page .p-0 {
+    padding: 0;
+}
+
+.feuer-mannschaft-archive-page .p-4,
+.feuer-mannschaft-single-page .p-4 {
+    padding: 1.5rem;
+}
+
+.feuer-mannschaft-archive-page .py-2,
+.feuer-mannschaft-single-page .py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.feuer-mannschaft-archive-page .py-4,
+.feuer-mannschaft-single-page .py-4 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.feuer-mannschaft-archive-page .py-5,
+.feuer-mannschaft-single-page .py-5 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.feuer-mannschaft-archive-page .gap-2,
+.feuer-mannschaft-single-page .gap-2 {
+    gap: 0.5rem;
+}
+
+.feuer-mannschaft-archive-page .gap-3,
+.feuer-mannschaft-single-page .gap-3 {
+    gap: 1rem;
+}
+
+.feuer-mannschaft-archive-page .card,
+.feuer-mannschaft-single-page .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    color: var(--fm-text-color);
+    background: var(--fm-surface-color);
+    border: 1px solid var(--fm-border-color);
+    border-radius: 1rem;
+}
+
+.feuer-mannschaft-archive-page .card-body,
+.feuer-mannschaft-single-page .card-body {
+    flex: 1 1 auto;
+    padding: 1.5rem;
+}
+
+.feuer-mannschaft-archive-page .border-0,
+.feuer-mannschaft-single-page .border-0 {
+    border: 0;
+}
+
+.feuer-mannschaft-archive-page .shadow-sm,
+.feuer-mannschaft-single-page .shadow-sm {
+    box-shadow: var(--fm-shadow-sm);
+}
+
+.feuer-mannschaft-archive-page .badge,
+.feuer-mannschaft-single-page .badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.35rem 0.7rem;
+    border-radius: 999px;
+    font-size: 0.82rem;
+    line-height: 1.2;
+}
+
+.feuer-mannschaft-archive-page .text-bg-secondary,
+.feuer-mannschaft-single-page .text-bg-secondary {
+    background: #e5e7eb;
+    color: #111827;
+}
+
+.feuer-mannschaft-archive-page .btn,
+.feuer-mannschaft-single-page .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.45rem;
+    min-height: 44px;
+    padding: 0.65rem 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.75rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.feuer-mannschaft-archive-page .btn:hover,
+.feuer-mannschaft-single-page .btn:hover,
+.feuer-mannschaft-archive-page .btn:focus,
+.feuer-mannschaft-single-page .btn:focus {
+    transform: translateY(-1px);
+}
+
+.feuer-mannschaft-archive-page .btn-primary,
+.feuer-mannschaft-single-page .btn-primary {
+    background: var(--fm-primary-color);
+    border-color: var(--fm-primary-color);
+    color: var(--fm-primary-contrast);
+}
+
+.feuer-mannschaft-archive-page .btn-primary:hover,
+.feuer-mannschaft-single-page .btn-primary:hover,
+.feuer-mannschaft-archive-page .btn-primary:focus,
+.feuer-mannschaft-single-page .btn-primary:focus {
+    background: var(--fm-primary-color-hover);
+    border-color: var(--fm-primary-color-hover);
+    color: var(--fm-primary-contrast);
+}
+
+.feuer-mannschaft-archive-page .btn-outline-secondary,
+.feuer-mannschaft-single-page .btn-outline-secondary {
+    background: transparent;
+    border-color: #cbd5e1;
+    color: #1f2937;
+}
+
+.feuer-mannschaft-archive-page .btn-outline-secondary:hover,
+.feuer-mannschaft-single-page .btn-outline-secondary:hover,
+.feuer-mannschaft-archive-page .btn-outline-secondary:focus,
+.feuer-mannschaft-single-page .btn-outline-secondary:focus {
+    background: #f8fafc;
+    border-color: #94a3b8;
+    color: #111827;
+}
+
+.feuer-mannschaft-archive-page .btn-sm,
+.feuer-mannschaft-single-page .btn-sm {
+    min-height: 38px;
+    padding: 0.5rem 0.85rem;
+    font-size: 0.9rem;
+}
+
+.feuer-mannschaft-archive-page .btn-group,
+.feuer-mannschaft-single-page .btn-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.feuer-mannschaft-archive-page .alert,
+.feuer-mannschaft-single-page .alert {
+    padding: 1rem 1.25rem;
+    border-radius: 0.875rem;
+    border: 1px solid transparent;
+}
+
+.feuer-mannschaft-archive-page .alert-warning,
+.feuer-mannschaft-single-page .alert-warning {
+    background: #fff7ed;
+    border-color: #fdba74;
+    color: #9a3412;
+}
+
+.feuer-mannschaft-archive-page .visually-hidden,
+.feuer-mannschaft-single-page .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.feuer-mannschaft-archive-page .float-end,
+.feuer-mannschaft-single-page .float-end {
+    float: right;
+}
+
+.feuer-mannschaft-archive-page .modal[hidden],
+.feuer-mannschaft-single-page .modal[hidden] {
+    display: none;
+}
+
+.feuer-mannschaft-archive-page .modal,
+.feuer-mannschaft-single-page .modal {
+    position: fixed;
+    inset: 0;
+    z-index: 99999;
+    padding: 1.5rem;
+    background: rgba(15, 23, 42, 0.72);
+    opacity: 0;
+    pointer-events: none;
+    overflow-y: auto;
+    transition: opacity 0.2s ease;
+}
+
+.feuer-mannschaft-archive-page .modal.is-open,
+.feuer-mannschaft-single-page .modal.is-open {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.feuer-mannschaft-archive-page .modal-dialog,
+.feuer-mannschaft-single-page .modal-dialog {
+    display: flex;
+    align-items: center;
+    min-height: calc(100vh - 3rem);
+    max-width: 860px;
+    margin: 0 auto;
+}
+
+.feuer-mannschaft-archive-page .modal-content,
+.feuer-mannschaft-single-page .modal-content {
+    width: 100%;
+    background: #ffffff;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.feuer-mannschaft-archive-page .btn-close,
+.feuer-mannschaft-single-page .btn-close {
+    position: relative;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0;
+    border: 1px solid #cbd5e1;
+    border-radius: 999px;
+    background: #ffffff;
+    color: #111827;
+    cursor: pointer;
+}
+
+.feuer-mannschaft-archive-page .btn-close::before,
+.feuer-mannschaft-archive-page .btn-close::after,
+.feuer-mannschaft-single-page .btn-close::before,
+.feuer-mannschaft-single-page .btn-close::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1rem;
+    height: 2px;
+    background: currentColor;
+}
+
+.feuer-mannschaft-archive-page .btn-close::before,
+.feuer-mannschaft-single-page .btn-close::before {
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.feuer-mannschaft-archive-page .btn-close::after,
+.feuer-mannschaft-single-page .btn-close::after {
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.feuer-mannschaft-archive-page .carousel,
+.feuer-mannschaft-single-page .carousel {
+    position: relative;
+}
+
+.feuer-mannschaft-archive-page .carousel-inner,
+.feuer-mannschaft-single-page .carousel-inner {
+    position: relative;
+}
+
+.feuer-mannschaft-archive-page .carousel-item,
+.feuer-mannschaft-single-page .carousel-item {
+    display: none;
+}
+
+.feuer-mannschaft-archive-page .carousel-item.active,
+.feuer-mannschaft-single-page .carousel-item.active {
+    display: block;
+}
+
+.feuer-mannschaft-archive-page .carousel-control-prev,
+.feuer-mannschaft-archive-page .carousel-control-next,
+.feuer-mannschaft-single-page .carousel-control-prev,
+.feuer-mannschaft-single-page .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.75rem;
+    height: 2.75rem;
+    border: 0;
+    border-radius: 999px;
+    background: rgba(15, 23, 42, 0.55);
+    color: #ffffff;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+
+.feuer-mannschaft-archive-page .carousel-control-prev,
+.feuer-mannschaft-single-page .carousel-control-prev {
+    left: 1rem;
+}
+
+.feuer-mannschaft-archive-page .carousel-control-next,
+.feuer-mannschaft-single-page .carousel-control-next {
+    right: 1rem;
+}
+
+.feuer-mannschaft-archive-page .carousel-control-prev-icon,
+.feuer-mannschaft-archive-page .carousel-control-next-icon,
+.feuer-mannschaft-single-page .carousel-control-prev-icon,
+.feuer-mannschaft-single-page .carousel-control-next-icon {
+    display: block;
+    width: 0.85rem;
+    height: 0.85rem;
+    border-top: 2px solid currentColor;
+    border-right: 2px solid currentColor;
+}
+
+.feuer-mannschaft-archive-page .carousel-control-prev-icon,
+.feuer-mannschaft-single-page .carousel-control-prev-icon {
+    transform: rotate(-135deg);
+}
+
+.feuer-mannschaft-archive-page .carousel-control-next-icon,
+.feuer-mannschaft-single-page .carousel-control-next-icon {
+    transform: rotate(45deg);
+}
+
+.feuer-mannschaft-archive-page .einsatz-posts,
+.feuer-mannschaft-single-page .einsatz-posts {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+body.feuer-mannschaft-modal-open {
+    overflow: hidden;
+}
+
+@media (min-width: 576px) {
+    .feuer-mannschaft-archive-page .col-sm-3,
+    .feuer-mannschaft-single-page .col-sm-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    .feuer-mannschaft-archive-page .col-sm-6,
+    .feuer-mannschaft-single-page .col-sm-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .feuer-mannschaft-archive-page .row-cols-sm-2 > *,
+    .feuer-mannschaft-single-page .row-cols-sm-2 > * {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .feuer-mannschaft-archive-page .text-sm-end,
+    .feuer-mannschaft-single-page .text-sm-end {
+        text-align: right;
+    }
+}
+
+@media (min-width: 768px) {
+    .feuer-mannschaft-archive-page .col-md-2,
+    .feuer-mannschaft-single-page .col-md-2 {
+        flex: 0 0 16.666667%;
+        max-width: 16.666667%;
+    }
+
+    .feuer-mannschaft-archive-page .col-md-3,
+    .feuer-mannschaft-single-page .col-md-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    .feuer-mannschaft-archive-page .col-md-5,
+    .feuer-mannschaft-single-page .col-md-5 {
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+    }
+
+    .feuer-mannschaft-archive-page .col-md-6,
+    .feuer-mannschaft-single-page .col-md-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .feuer-mannschaft-archive-page .col-md-7,
+    .feuer-mannschaft-single-page .col-md-7 {
+        flex: 0 0 58.333333%;
+        max-width: 58.333333%;
+    }
+
+    .feuer-mannschaft-archive-page .col-md-10,
+    .feuer-mannschaft-single-page .col-md-10 {
+        flex: 0 0 83.333333%;
+        max-width: 83.333333%;
+    }
+
+    .feuer-mannschaft-archive-page .row-cols-md-2 > *,
+    .feuer-mannschaft-single-page .row-cols-md-2 > * {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .feuer-mannschaft-archive-page .mb-md-4,
+    .feuer-mannschaft-single-page .mb-md-4 {
+        margin-bottom: 1.5rem;
+    }
+
+    .feuer-mannschaft-archive-page .mt-md-5,
+    .feuer-mannschaft-single-page .mt-md-5 {
+        margin-top: 3rem;
+    }
+
+    .feuer-mannschaft-archive-page .my-md-4,
+    .feuer-mannschaft-single-page .my-md-4 {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .feuer-mannschaft-archive-page .ms-md-4,
+    .feuer-mannschaft-single-page .ms-md-4 {
+        margin-left: 1.5rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .feuer-mannschaft-archive-page .col-lg-3,
+    .feuer-mannschaft-single-page .col-lg-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    .feuer-mannschaft-archive-page .col-lg-5,
+    .feuer-mannschaft-single-page .col-lg-5 {
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+    }
+
+    .feuer-mannschaft-archive-page .col-lg-6,
+    .feuer-mannschaft-single-page .col-lg-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .feuer-mannschaft-archive-page .col-lg-7,
+    .feuer-mannschaft-single-page .col-lg-7 {
+        flex: 0 0 58.333333%;
+        max-width: 58.333333%;
+    }
+
+    .feuer-mannschaft-archive-page .col-lg-8,
+    .feuer-mannschaft-single-page .col-lg-8 {
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+    }
+
+    .feuer-mannschaft-archive-page .col-lg-10,
+    .feuer-mannschaft-single-page .col-lg-10 {
+        flex: 0 0 83.333333%;
+        max-width: 83.333333%;
+    }
+
+    .feuer-mannschaft-archive-page .row-cols-lg-3 > *,
+    .feuer-mannschaft-single-page .row-cols-lg-3 > * {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+
+    .feuer-mannschaft-archive-page .p-lg-5,
+    .feuer-mannschaft-single-page .p-lg-5 {
+        padding: 3rem;
+    }
+
+    .feuer-mannschaft-archive-page .ms-lg-5,
+    .feuer-mannschaft-single-page .ms-lg-5 {
+        margin-left: 3rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .feuer-mannschaft-archive-page .col-xl-8,
+    .feuer-mannschaft-single-page .col-xl-8 {
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+    }
+
+    .feuer-mannschaft-archive-page .row-cols-xl-3 > *,
+    .feuer-mannschaft-single-page .row-cols-xl-3 > * {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .feuer-mannschaft-archive-page .col-xxl-7,
+    .feuer-mannschaft-single-page .col-xxl-7 {
+        flex: 0 0 58.333333%;
+        max-width: 58.333333%;
+    }
+}
+
+.eb-overview-card {
+    overflow: hidden;
+    border-radius: 18px;
+}
+
+.eb-overview-card-image-link {
+    display: block;
+    height: 100%;
+    min-height: 240px;
+    background: #eef2f6;
+}
+
+.eb-overview-card-image,
+.eb-overview-card-image-link img,
+.eb-overview-card-image-link .feuer-mannschaft-placeholder {
+    display: block;
+    width: 100%;
+    height: 100%;
+    min-height: 240px;
+    object-fit: cover;
+}
+
+.eb-overview-badge,
+.eb-overview-number-badge {
+    font-size: 0.82rem;
+    font-weight: 600;
+    padding: 0.55rem 0.8rem;
+}
+
+.eb-overview-meta {
+    display: grid;
+    gap: 0.35rem;
+    color: #495057;
+    font-size: 0.96rem;
+}
+
+.feuer-mannschaft-card-image,
+.feuer-mannschaft-list-photo,
+.feuer-mannschaft-modal-image,
+.feuer-mannschaft-single-media,
+.feuer-mannschaft-carousel {
+    background: #eef2f6;
+    overflow: hidden;
+}
+
+.feuer-mannschaft-card-image {
+    width: 100%;
+    max-width: 100%;
+    aspect-ratio: var(--feuer-mannschaft-card-aspect-ratio, 360 / 460);
+    border-radius: 1rem;
+}
+
+.feuer-mannschaft-card-image img,
+.feuer-mannschaft-card-image .feuer-mannschaft-placeholder {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.feuer-mannschaft-list-photo {
+    display: block;
+    min-height: 120px;
+    border-radius: 12px;
+}
+
+.feuer-mannschaft-list-photo-image,
+.feuer-mannschaft-list-photo img,
+.feuer-mannschaft-list-photo .feuer-mannschaft-placeholder {
+    display: block;
+    width: 100%;
+    height: 100%;
+    min-height: 120px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.feuer-mannschaft-list-layout {
+    display: grid;
+    grid-template-columns: minmax(110px, 150px) minmax(0, 1fr) auto;
+    gap: 1rem 1.25rem;
+    align-items: center;
+}
+
+.feuer-mannschaft-list-shell {
+    border-radius: 1.35rem;
+    overflow: hidden;
+    box-shadow: 0 18px 40px rgba(15, 23, 42, 0.08);
+}
+
+.feuer-mannschaft-list-row:last-child {
+    border-bottom: 0 !important;
+}
+
+.feuer-mannschaft-list-row {
+    padding-left: 1.35rem;
+    padding-right: 1.35rem;
+    background: #fff;
+}
+
+.feuer-mannschaft-list-visual {
+    min-width: 0;
+}
+
+.feuer-mannschaft-list-main {
+    min-width: 0;
+    display: grid;
+    gap: 0.45rem;
+}
+
+.feuer-mannschaft-list-topline {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.feuer-mannschaft-list-title {
+    margin-bottom: 0;
+}
+
+.feuer-mannschaft-list-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.feuer-mannschaft-list-meta-item {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    align-items: center;
+    padding: 0.35rem 0.7rem;
+    border-radius: 999px;
+    background: #f3f5f7;
+    color: #52606d;
+    font-size: 0.86rem;
+    line-height: 1.3;
+}
+
+.feuer-mannschaft-list-meta-item strong {
+    color: #20262d;
+    font-weight: 600;
+}
+
+.feuer-mannschaft-list-description {
+    max-width: 72ch;
+}
+
+.feuer-mannschaft-list-actions {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.feuer-mannschaft-team-card {
+    width: 100%;
+    max-width: 320px;
+}
+
+.feuer-mannschaft-team-card > a {
+    display: block;
+}
+
+.feuer-mannschaft-template-standard .card-img-top,
+.feuer-mannschaft-template-standard .feuer-mannschaft-placeholder {
+    display: block;
+    width: 100%;
+    min-height: 280px;
+    height: 280px;
+    object-fit: cover;
+    background: #eef2f6;
+}
+
+.feuer-mannschaft-template-standard .card {
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+.feuer-mannschaft-team-image,
+.feuer-mannschaft-team-card .feuer-mannschaft-placeholder {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 1rem;
+    background: #eef2f6;
+}
+
+.feuer-mannschaft-modal-image,
+.feuer-mannschaft-modal-photo,
+.feuer-mannschaft-modal-image .feuer-mannschaft-placeholder {
+    height: 100%;
+    min-height: 100%;
+}
+
+.feuer-mannschaft-single-media-shell {
+    margin-bottom: 1.5rem;
+}
+
+.feuer-mannschaft-profile-hero-media,
+.feuer-mannschaft-profile-hero-media .feuer-mannschaft-single-media,
+.feuer-mannschaft-profile-hero-media .feuer-mannschaft-carousel,
+.feuer-mannschaft-profile-hero-media .carousel-inner,
+.feuer-mannschaft-profile-hero-media .carousel-item {
+    border-radius: 0.375rem;
+    overflow: hidden;
+    background: #eef2f6;
+}
+
+.feuer-mannschaft-profile-hero-media img,
+.feuer-mannschaft-profile-hero-media .feuer-mannschaft-placeholder {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.feuer-mannschaft-standard-lead p:last-child {
+    margin-bottom: 0;
+}
+
+.feuer-mannschaft-single-media,
+.feuer-mannschaft-carousel {
+    border-radius: 12px;
+}
+
+.feuer-mannschaft-single-image,
+.feuer-mannschaft-single-media,
+.feuer-mannschaft-carousel {
+    min-height: var(--feuer-mannschaft-single-height, 520px);
+}
+
+.feuer-mannschaft-card-photo,
+.feuer-mannschaft-modal-photo,
+.feuer-mannschaft-single-image,
+.feuer-mannschaft-list-photo img,
+.feuer-mannschaft-single-media img,
+.feuer-mannschaft-carousel .carousel-item img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.feuer-mannschaft-single-meta {
+    display: grid;
+    gap: 0.5rem;
+    color: #212529;
+}
+
+.feuer-mannschaft-single-content {
+    margin-top: 20px;
+}
+
+.feuer-mannschaft-single-template-compact .feuer-mannschaft-single-content {
+    margin-top: 0;
+}
+
+.feuer-mannschaft-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 220px;
+    background: #e9ecef;
+    color: #6c757d;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.feuer-mannschaft-card-image .feuer-mannschaft-placeholder {
+    min-height: 0;
+}
+
+.feuer-mannschaft-single-media .feuer-mannschaft-placeholder,
+.feuer-mannschaft-carousel .feuer-mannschaft-placeholder,
+.feuer-mannschaft-modal-image .feuer-mannschaft-placeholder {
+    min-height: var(--feuer-mannschaft-single-height, 520px);
+    height: 100%;
+}
+
+.feuer-mannschaft-detail-box {
+    padding: 1rem;
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+    background: #fff;
+}
+
+.feuer-mannschaft-detail-label {
+    font-size: 0.875rem;
+    color: #6c757d;
+    margin-bottom: 0.25rem;
+}
+
+.feuer-mannschaft-detail-value {
+    font-weight: 600;
+}
+
+.feuer-mannschaft-detail-tags {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+}
+
+.feuer-mannschaft-detail-tag {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.3rem 0.7rem;
+    border-radius: 999px;
+    background: #eef2f6;
+    color: #212529;
+    font-size: 0.92rem;
+    line-height: 1.25;
+}
+
+.feuer-mannschaft-detail-link {
+    color: #0d6efd;
+    text-decoration: none;
+}
+
+.feuer-mannschaft-detail-link:hover,
+.feuer-mannschaft-detail-link:focus {
+    text-decoration: underline;
+}
+
+.feuer-mannschaft-detail-tag.feuer-mannschaft-detail-link {
+    color: #212529;
+}
+
+.feuer-mannschaft-spotlight-shell {
+    display: grid;
+    gap: 1.75rem;
+}
+
+.feuer-mannschaft-spotlight-feature {
+    display: grid;
+    grid-template-columns: minmax(0, 420px) minmax(0, 1fr);
+    background: linear-gradient(135deg, #fff7f2 0%, #ffffff 58%, #f4f7fb 100%);
+    border-radius: 1.5rem;
+    overflow: hidden;
+    box-shadow: 0 20px 45px rgba(15, 23, 42, 0.1);
+}
+
+.feuer-mannschaft-spotlight-media {
+    display: block;
+    min-height: 100%;
+    background: #eef2f6;
+}
+
+.feuer-mannschaft-spotlight-media img,
+.feuer-mannschaft-spotlight-media .feuer-mannschaft-placeholder {
+    display: block;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+
+.feuer-mannschaft-spotlight-content {
+    display: grid;
+    gap: 1.2rem;
+    align-content: center;
+    padding: 2rem;
+}
+
+.feuer-mannschaft-spotlight-summary {
+    max-width: 65ch;
+    color: #495057;
+    line-height: 1.75;
+}
+
+.feuer-mannschaft-spotlight-meta {
+    display: grid;
+    gap: 0.75rem;
+}
+
+.feuer-mannschaft-spotlight-meta-row {
+    display: grid;
+    gap: 0.35rem;
+    padding: 0.9rem 1rem;
+    border-radius: 1rem;
+    background: rgba(255, 255, 255, 0.72);
+    border: 1px solid rgba(148, 163, 184, 0.2);
+}
+
+.feuer-mannschaft-spotlight-meta-label {
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #6b7280;
+}
+
+.feuer-mannschaft-spotlight-meta-value {
+    color: #111827;
+}
+
+.feuer-mannschaft-spotlight-list .card {
+    border-radius: 1.25rem;
+    overflow: hidden;
+}
+
+.feuer-mannschaft-directory-hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 1.5rem;
+    align-items: end;
+    padding: 1.75rem;
+    margin-bottom: 1.75rem;
+    border-radius: 1.5rem;
+    background: linear-gradient(135deg, #f4f7fb 0%, #ffffff 55%, #fff5f0 100%);
+    box-shadow: 0 16px 38px rgba(15, 23, 42, 0.08);
+}
+
+.feuer-mannschaft-directory-intro {
+    max-width: 70ch;
+}
+
+.feuer-mannschaft-directory-count {
+    min-width: 180px;
+    padding: 1rem 1.25rem;
+    border-radius: 1.25rem;
+    background: #111827;
+    color: #ffffff;
+    text-align: center;
+}
+
+.feuer-mannschaft-directory-count-label {
+    display: block;
+    margin-bottom: 0.45rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.72);
+}
+
+.feuer-mannschaft-directory-count strong {
+    display: block;
+    font-size: clamp(2rem, 4vw, 3rem);
+    line-height: 1;
+}
+
+.feuer-mannschaft-directory-grid {
+    display: grid;
+    gap: 1.25rem;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.feuer-mannschaft-directory-card {
+    display: grid;
+    grid-template-columns: minmax(112px, 140px) minmax(0, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 1.35rem;
+    background: #ffffff;
+    box-shadow: 0 14px 30px rgba(15, 23, 42, 0.06);
+}
+
+.feuer-mannschaft-directory-media {
+    display: block;
+    min-height: 100%;
+    border-radius: 1rem;
+    overflow: hidden;
+    background: #eef2f6;
+}
+
+.feuer-mannschaft-directory-media img,
+.feuer-mannschaft-directory-media .feuer-mannschaft-placeholder {
+    display: block;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+
+.feuer-mannschaft-directory-body {
+    display: grid;
+    gap: 0.9rem;
+    min-width: 0;
+}
+
+.feuer-mannschaft-directory-topline {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.feuer-mannschaft-directory-summary {
+    line-height: 1.65;
+}
+
+.feuer-mannschaft-directory-meta {
+    display: grid;
+    gap: 0.65rem;
+}
+
+.feuer-mannschaft-directory-meta-item {
+    display: grid;
+    gap: 0.25rem;
+}
+
+.feuer-mannschaft-directory-meta-label {
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #6b7280;
+}
+
+.feuer-mannschaft-directory-meta-value {
+    color: #1f2937;
+}
+
+.feuer-mannschaft-directory-actions {
+    display: flex;
+    align-items: flex-end;
+}
+
+.feuer-mannschaft-magazine-hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(320px, 42%);
+    gap: 1.5rem;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    background: linear-gradient(135deg, #fffaf7 0%, #ffffff 55%, #f2f6fb 100%);
+    box-shadow: 0 18px 42px rgba(15, 23, 42, 0.08);
+}
+
+.feuer-mannschaft-magazine-copy {
+    display: grid;
+    gap: 1.25rem;
+    align-content: start;
+}
+
+.feuer-mannschaft-magazine-media-shell,
+.feuer-mannschaft-magazine-media-shell .feuer-mannschaft-single-media,
+.feuer-mannschaft-magazine-media-shell .feuer-mannschaft-carousel,
+.feuer-mannschaft-magazine-media-shell .carousel-inner,
+.feuer-mannschaft-magazine-media-shell .carousel-item {
+    height: 100%;
+    border-radius: 1.25rem;
+    overflow: hidden;
+}
+
+.feuer-mannschaft-magazine-facts {
+    display: grid;
+    gap: 0.85rem;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+}
+
+.feuer-mannschaft-magazine-fact {
+    padding: 1rem;
+    border-radius: 1rem;
+    background: rgba(255, 255, 255, 0.78);
+    border: 1px solid rgba(148, 163, 184, 0.2);
+}
+
+.feuer-mannschaft-magazine-fact-label {
+    margin-bottom: 0.35rem;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #6b7280;
+}
+
+.feuer-mannschaft-magazine-fact-value {
+    color: #111827;
+    font-weight: 600;
+}
+
+.feuer-mannschaft-magazine-panel {
+    height: 100%;
+    padding: 1.5rem;
+    border-radius: 1.25rem;
+    background: #ffffff;
+    box-shadow: 0 14px 32px rgba(15, 23, 42, 0.06);
+}
+
+.feuer-mannschaft-magazine-panel-secondary {
+    background: #f8fafc;
+}
+
+.feuer-mannschaft-magazine-panel-label {
+    margin-bottom: 1rem;
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #6b7280;
+}
+
+.feuer-mannschaft-dossier-layout {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.feuer-mannschaft-dossier-sidebar,
+.feuer-mannschaft-dossier-main {
+    display: grid;
+    gap: 1rem;
+    align-content: start;
+}
+
+.feuer-mannschaft-dossier-card,
+.feuer-mannschaft-dossier-section {
+    padding: 1.5rem;
+    border-radius: 1.25rem;
+    background: #ffffff;
+    box-shadow: 0 14px 32px rgba(15, 23, 42, 0.06);
+}
+
+.feuer-mannschaft-dossier-media-card {
+    padding: 0;
+    overflow: hidden;
+}
+
+.feuer-mannschaft-dossier-media-card .feuer-mannschaft-single-media,
+.feuer-mannschaft-dossier-media-card .feuer-mannschaft-carousel,
+.feuer-mannschaft-dossier-media-card .carousel-inner,
+.feuer-mannschaft-dossier-media-card .carousel-item {
+    border-radius: 1.25rem;
+    overflow: hidden;
+}
+
+.feuer-mannschaft-dossier-detail-list {
+    display: grid;
+    gap: 0.85rem;
+    margin-top: 1.25rem;
+}
+
+.feuer-mannschaft-dossier-detail-row {
+    display: grid;
+    gap: 0.35rem;
+    padding-top: 0.85rem;
+    border-top: 1px solid #eef2f7;
+}
+
+.feuer-mannschaft-dossier-detail-row:first-child {
+    padding-top: 0;
+    border-top: 0;
+}
+
+.feuer-mannschaft-dossier-detail-label,
+.feuer-mannschaft-dossier-section-label {
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #6b7280;
+}
+
+.feuer-mannschaft-dossier-detail-value {
+    color: #111827;
+}
+
+.feuer-mannschaft-dossier-actions-card {
+    display: grid;
+    gap: 0.75rem;
+}
+
+.feuer-mannschaft-dossier-actions-card .btn {
+    width: 100%;
+    justify-content: center;
+}
+
+.feuer-mannschaft-dossier-intro {
+    background: linear-gradient(135deg, #f5f8fc 0%, #ffffff 55%, #fff8f3 100%);
+}
+
+.feuer-mannschaft-dossier-description {
+    margin: 0;
+    color: #495057;
+    line-height: 1.75;
+}
+
+.feuer-mannschaft-mentions-list {
+    display: grid;
+    gap: 14px;
+}
+
+.feuer-mannschaft-mention-item {
+    padding-top: 14px;
+    border-top: 1px solid #dee2e6;
+}
+
+.feuer-mannschaft-mention-item:first-child {
+    padding-top: 0;
+    border-top: 0;
+}
+
+.feuer-mannschaft-mention-link {
+    display: inline-block;
+    font-weight: 600;
+    color: #1f2937;
+    text-decoration: none;
+}
+
+.feuer-mannschaft-mention-link:hover,
+.feuer-mannschaft-mention-link:focus {
+    text-decoration: underline;
+}
+
+.feuer-mannschaft-mention-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 6px;
+    color: #6c757d;
+    font-size: 0.92rem;
+}
+
+body.feuer-mannschaft-single-layout #secondary,
+body.feuer-mannschaft-single-layout .sidebar,
+body.feuer-mannschaft-single-layout .widget-area,
+body.feuer-mannschaft-single-layout .sidebar-area,
+body.feuer-mannschaft-single-layout .site-sidebar,
+body.feuer-mannschaft-single-layout .content-sidebar,
+body.feuer-mannschaft-single-layout .primary-sidebar {
+    display: none !important;
+}
+
+body.feuer-mannschaft-single-layout #primary,
+body.feuer-mannschaft-single-layout .content-area,
+body.feuer-mannschaft-single-layout .site-main,
+body.feuer-mannschaft-single-layout .main-content,
+body.feuer-mannschaft-single-layout .primary-content {
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+    float: none !important;
+}
+
+@media (max-width: 767.98px) {
+    .feuer-mannschaft-list-layout {
+        grid-template-columns: 92px minmax(0, 1fr);
+        grid-template-areas:
+            "visual main"
+            "actions actions";
+        gap: 0.85rem 1rem;
+        align-items: start;
+    }
+
+    .feuer-mannschaft-list-shell {
+        border-radius: 1.15rem;
+    }
+
+    .feuer-mannschaft-list-row {
+        padding: 1rem;
+    }
+
+    .feuer-mannschaft-list-visual {
+        grid-area: visual;
+        align-self: start;
+    }
+
+    .feuer-mannschaft-list-main {
+        grid-area: main;
+        gap: 0.35rem;
+        align-self: center;
+    }
+
+    .feuer-mannschaft-spotlight-feature {
+        grid-template-columns: 1fr;
+    }
+
+    .feuer-mannschaft-spotlight-media img,
+    .feuer-mannschaft-spotlight-media .feuer-mannschaft-placeholder {
+        min-height: 320px;
+    }
+
+    .feuer-mannschaft-spotlight-content {
+        padding: 1.5rem;
+    }
+
+    .feuer-mannschaft-directory-hero {
+        grid-template-columns: 1fr;
+        padding: 1.5rem;
+    }
+
+    .feuer-mannschaft-directory-count {
+        min-width: 0;
+        text-align: left;
+    }
+
+    .feuer-mannschaft-directory-card {
+        grid-template-columns: 1fr;
+    }
+
+    .feuer-mannschaft-directory-media img,
+    .feuer-mannschaft-directory-media .feuer-mannschaft-placeholder {
+        min-height: 240px;
+    }
+
+    .feuer-mannschaft-magazine-hero {
+        grid-template-columns: 1fr;
+        padding: 1.25rem;
+    }
+
+    .eb-overview-card-image-link,
+    .eb-overview-card-image,
+    .eb-overview-card-image-link .feuer-mannschaft-placeholder {
+        min-height: 210px;
+    }
+
+    .feuer-mannschaft-list-photo {
+        width: 92px;
+        min-height: 104px;
+        aspect-ratio: 1 / 1.14;
+        border-radius: 18px;
+    }
+
+    .feuer-mannschaft-list-photo-image,
+    .feuer-mannschaft-list-photo img,
+    .feuer-mannschaft-list-photo .feuer-mannschaft-placeholder {
+        min-height: 104px;
+        height: 100%;
+        border-radius: 18px;
+    }
+
+    .feuer-mannschaft-list-actions {
+        grid-area: actions;
+        justify-content: flex-start;
+        padding-top: 0.1rem;
+    }
+
+    .feuer-mannschaft-list-actions .btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .feuer-mannschaft-list-meta {
+        gap: 0.45rem;
+    }
+
+    .feuer-mannschaft-list-title {
+        font-size: 1rem;
+        line-height: 1.3;
+    }
+
+    .feuer-mannschaft-list-meta-item {
+        font-size: 0.78rem;
+        padding: 0.28rem 0.58rem;
+    }
+
+    .feuer-mannschaft-list-description {
+        display: -webkit-box;
+        overflow: hidden;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        font-size: 0.92rem;
+        line-height: 1.45;
+    }
+
+    .feuer-mannschaft-template-standard .card-img-top,
+    .feuer-mannschaft-template-standard .feuer-mannschaft-placeholder {
+        min-height: 220px;
+        height: 220px;
+    }
+
+    .eb-overview-number-badge {
+        align-self: flex-start;
+    }
+
+    .feuer-mannschaft-single-image,
+    .feuer-mannschaft-single-media,
+    .feuer-mannschaft-carousel {
+        min-height: 320px;
+    }
+
+    .feuer-mannschaft-profile-hero-media img,
+    .feuer-mannschaft-profile-hero-media .feuer-mannschaft-placeholder {
+        aspect-ratio: 4 / 5;
+    }
+}
+
+@media (max-width: 479.98px) {
+    .feuer-mannschaft-list-layout {
+        grid-template-columns: 84px minmax(0, 1fr);
+        gap: 0.75rem 0.9rem;
+    }
+
+    .feuer-mannschaft-list-photo {
+        width: 84px;
+        min-height: 96px;
+        border-radius: 16px;
+    }
+
+    .feuer-mannschaft-list-photo-image,
+    .feuer-mannschaft-list-photo img,
+    .feuer-mannschaft-list-photo .feuer-mannschaft-placeholder {
+        min-height: 96px;
+        border-radius: 16px;
+    }
+
+    .feuer-mannschaft-list-row {
+        padding: 0.9rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .feuer-mannschaft-dossier-layout {
+        grid-template-columns: minmax(300px, 360px) minmax(0, 1fr);
+        align-items: start;
+    }
+
+    .feuer-mannschaft-dossier-sidebar {
+        position: sticky;
+        top: 1.5rem;
+    }
+}

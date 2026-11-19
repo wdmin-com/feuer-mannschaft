@@ -1,0 +1,17 @@
+{
+  "name": "Feuer-Mannschaft",
+  "version": "2.3.30",
+  "homepage": "https://walterfaerber.eu/plugins/feuer-mannschaft/",
+  "download_url": "https://walterfaerber.eu/plugins/feuer-mannschaft/feuer-mannschaft.zip",
+  "author": "<a href=\"https://walterfaerber.eu\">Walter Faerber</a>",
+  "author_profile": "https://walterfaerber.eu",
+  "requires": "6.0",
+  "requires_php": "8.0",
+  "tested": "",
+  "last_updated": "2026-04-17 00:30:00",
+  "sections": {
+    "description": "<p>Feuer-Mannschaft verwaltet Mitgliederprofile als normale WordPress-Beitraege inklusive Galerie, Archivierung, Listenfeldern und Frontend-Templates.</p>",
+    "installation": "<ol><li>ZIP-Datei <code>feuer-mannschaft.zip</code> auf den Server unter <code>https://walterfaerber.eu/plugins/feuer-mannschaft/</code> hochladen.</li><li><code>update.json</code> an derselben Stelle aktualisieren.</li><li>Im WordPress-Backend auf der Plugin-Seite die Aktualisierung ausfuehren.</li></ol>",
+    "changelog": "<h4>2.3.30</h4><ul><li>GitHub- und Deployment-Dokumentation ergaenzt.</li><li>Release-Skript fuer auslieferbare ZIP-Pakete hinzugefuegt.</li><li>Repository fuer saubere GitHub-Nutzung vorbereitet.</li></ul>"
+  }
+}

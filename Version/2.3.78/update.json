@@ -1,0 +1,18 @@
+{
+    "name":  "Feuer-Mannschaft",
+    "version":  "2.3.78",
+    "homepage":  "https://wdmin.com/plugins/feuer-mannschaft/",
+    "download_url":  "https://wdmin.com/plugins/feuer-mannschaft/release/2.3.78/feuer-mannschaft.zip",
+    "package_sha256":  "002909b5a0de285304d9466fb70eb2e3c97095bdbcb9998331f8b09d3cb6f651",
+    "author":  "\u003ca href=\"https://wdmin.com\"\u003eWalter Faerber\u003c/a\u003e",
+    "author_profile":  "https://wdmin.com",
+    "requires":  "7.1",
+    "requires_php":  "8.1",
+    "tested":  "7.1.3",
+    "last_updated":  "2026-10-17 18:06:08",
+    "sections":  {
+                     "description":  "\u003cp\u003eMannschaft verwaltet Mitgliederprofile als normale WordPress-Beitraege inklusive Galerie, Archivierung, Listenfeldern und Frontend-Templates.\u003c/p\u003e",
+                     "installation":  "\u003col\u003e\u003cli\u003eZIP-Datei \u003ccode\u003efeuer-mannschaft.zip\u003c/code\u003e in den versionsbezogenen Ordner \u003ccode\u003ehttps://wdmin.com/plugins/feuer-mannschaft/release/2.3.78/\u003c/code\u003e hochladen.\u003c/li\u003e\u003cli\u003e\u003ccode\u003eupdate.json\u003c/code\u003e im Hauptordner \u003ccode\u003ehttps://wdmin.com/plugins/feuer-mannschaft/\u003c/code\u003e aktualisieren.\u003c/li\u003e\u003cli\u003eIm WordPress-Backend auf der Plugin-Seite die Aktualisierung manuell ausfuehren.\u003c/li\u003e\u003c/ol\u003e",
+                     "changelog":  "\u003ch4\u003e2.3.72\u003c/h4\u003e\u003cul\u003e\u003cli\u003eArchivgrund, Dienstende und datensparsame Karten ehemaliger Mitglieder.\u003c/li\u003e\u003cli\u003eArchivdaten werden gesichert und lassen sich wiederherstellen.\u003c/li\u003e\u003c/ul\u003e\u003ch4\u003e2.3.71\u003c/h4\u003e\u003cul\u003e\u003cli\u003eStrukturierter Dienstverlauf mit Qualifikationen, Auszeichnungen und Jubilaeen.\u003c/li\u003e\u003cli\u003eChronologische Darstellung in allen Profilvorlagen und Sicherungen.\u003c/li\u003e\u003c/ul\u003e"
+                 }
+}

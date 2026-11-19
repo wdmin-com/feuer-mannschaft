@@ -1,0 +1,115 @@
+<!--
+  Bootstrap 5 HTML insert for a WordPress Custom HTML block.
+  Replace the image URL, profile URL, rank, name and role in each card.
+  Bootstrap 5 CSS must already be loaded by the active theme.
+-->
+<style>
+    .fm-html-member-card {
+        overflow: hidden;
+        border-radius: 1.15rem;
+        background: #14171c;
+        box-shadow: 0 16px 34px rgba(15, 23, 42, .14);
+        transition: transform .28s ease, box-shadow .28s ease;
+    }
+
+    .fm-html-member-card__link {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        aspect-ratio: 360 / 460;
+        color: #fff;
+        background: #1b2028;
+    }
+
+    .fm-html-member-card__link::before {
+        content: "";
+        position: absolute;
+        z-index: 1;
+        inset: 0;
+        background: linear-gradient(180deg, rgba(7, 10, 14, .08) 18%, rgba(7, 10, 14, .3) 48%, rgba(7, 10, 14, .94) 100%), linear-gradient(90deg, rgba(178, 34, 34, .44), transparent 32%);
+        pointer-events: none;
+    }
+
+    .fm-html-member-card__image {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform .48s cubic-bezier(.2, .72, .2, 1), filter .35s ease;
+    }
+
+    .fm-html-member-card__overlay {
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        gap: .34rem;
+        min-height: 46%;
+        padding: 1.35rem;
+        color: #fff;
+    }
+
+    .fm-html-member-card__rank {
+        color: #f6aaaa;
+        font-size: .72rem;
+        font-weight: 800;
+        line-height: 1.25;
+        letter-spacing: .12em;
+        text-transform: uppercase;
+    }
+
+    .fm-html-member-card__name {
+        font-size: clamp(1.28rem, 2.2vw, 1.75rem);
+        font-weight: 800;
+        line-height: 1.05;
+        letter-spacing: -.025em;
+    }
+
+    .fm-html-member-card__role {
+        color: rgba(255, 255, 255, .82);
+        font-size: .9rem;
+        font-weight: 600;
+        line-height: 1.4;
+    }
+
+    .fm-html-member-card:hover,
+    .fm-html-member-card:focus-within {
+        transform: translateY(-5px);
+        box-shadow: 0 25px 46px rgba(15, 23, 42, .24);
+    }
+
+    .fm-html-member-card:hover .fm-html-member-card__image,
+    .fm-html-member-card:focus-within .fm-html-member-card__image {
+        transform: scale(1.055);
+        filter: saturate(1.08) contrast(1.04);
+    }
+
+    .fm-html-member-card__link:focus-visible {
+        outline: 3px solid #f6aaaa;
+        outline-offset: -5px;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .fm-html-member-card,
+        .fm-html-member-card__image {
+            transition: none;
+        }
+    }
+</style>
+
+<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
+    <div class="col">
+        <article class="card border-0 h-100 fm-html-member-card">
+            <a class="h-100 text-decoration-none text-white fm-html-member-card__link" href="/mannschaft/max-mustermann/" aria-label="Profil von Max Mustermann ansehen">
+                <img class="card-img h-100 fm-html-member-card__image" src="https://example.com/max-mustermann.jpg" alt="Max Mustermann in Einsatzkleidung">
+                <span class="card-img-overlay fm-html-member-card__overlay">
+                    <span class="fm-html-member-card__rank">Hauptbrandmeister</span>
+                    <span class="fm-html-member-card__name">Max Mustermann</span>
+                    <span class="fm-html-member-card__role">Zugführer</span>
+                </span>
+            </a>
+        </article>
+    </div>
+
+    <!-- Copy this .col block for further members. -->
+</div>

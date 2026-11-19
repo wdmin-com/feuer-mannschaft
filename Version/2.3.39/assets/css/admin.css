@@ -1,0 +1,793 @@
+.feuer-mannschaft-admin-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px 20px;
+    margin-top: 12px;
+}
+
+.feuer-mannschaft-field-full {
+    grid-column: 1 / -1;
+}
+
+.feuer-mannschaft-field label {
+    display: block;
+    margin-bottom: 6px;
+}
+
+.feuer-mannschaft-inline-check {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.feuer-mannschaft-inline-check input {
+    margin: 0;
+}
+
+.feuer-mannschaft-category-list,
+.feuer-mannschaft-settings-category-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-height: 280px;
+    overflow: auto;
+    padding: 12px;
+    border: 1px solid #dcdcde;
+    border-radius: 8px;
+    background: #fff;
+}
+
+.feuer-mannschaft-category-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.feuer-mannschaft-gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 12px;
+    margin-top: 16px;
+}
+
+.feuer-mannschaft-gallery-item {
+    border: 1px solid #dcdcde;
+    border-radius: 10px;
+    background: #fff;
+    padding: 10px;
+    display: grid;
+    gap: 8px;
+}
+
+.feuer-mannschaft-gallery-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 140px;
+    padding: 8px;
+    border-radius: 8px;
+    background: #f6f7f7;
+    overflow: hidden;
+}
+
+.feuer-mannschaft-gallery-image img {
+    width: 100%;
+    height: 140px;
+    object-fit: contain;
+    display: block;
+    margin: 0;
+}
+
+.feuer-mannschaft-gallery-item label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    line-height: 1.35;
+}
+
+.feuer-mannschaft-gallery-item label input {
+    margin: 0;
+}
+
+.feuer-mannschaft-profile-screen .submitdelete,
+.feuer-mannschaft-profile-screen .row-actions .trash,
+.feuer-mannschaft-profile-screen .row-actions .untrash,
+.feuer-mannschaft-profile-screen .row-actions .delete,
+.feuer-mannschaft-profile-list .row-actions .trash,
+.feuer-mannschaft-profile-list .row-actions .untrash,
+.feuer-mannschaft-profile-list .row-actions .delete {
+    display: none !important;
+}
+
+.eb-delete-participant {
+    display: none !important;
+}
+
+.feuer-mannschaft-status-box {
+    padding-top: 10px;
+}
+
+.feuer-mannschaft-status-box .button {
+    margin-top: 8px;
+}
+
+.feuer-mannschaft-status-box .description {
+    margin-top: 10px;
+}
+
+.feuer-mannschaft-choice-list {
+    display: grid;
+    gap: 8px;
+    max-height: 220px;
+    overflow: auto;
+    padding: 12px;
+    border: 1px solid #dcdcde;
+    border-radius: 8px;
+    background: #fff;
+}
+
+.feuer-mannschaft-choice-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.feuer-mannschaft-switch-list {
+    display: grid;
+    gap: 10px;
+    max-height: 280px;
+    overflow: auto;
+    padding: 12px;
+    border: 1px solid #dcdcde;
+    border-radius: 8px;
+    background: #fff;
+}
+
+.feuer-mannschaft-switch-list-wide {
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    max-height: none;
+    overflow: visible;
+    padding: 16px;
+}
+
+.feuer-mannschaft-switch-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 0;
+}
+
+.feuer-mannschaft-switch-item .form-check-input {
+    position: relative;
+    width: 42px;
+    min-width: 42px;
+    height: 24px;
+    margin: 0;
+    cursor: pointer;
+    appearance: none;
+    background: #dcdcde;
+    border: 1px solid #8c8f94;
+    border-radius: 999px;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.feuer-mannschaft-switch-item .form-check-input::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+}
+
+.feuer-mannschaft-switch-item .form-check-input:checked {
+    background: #2271b1;
+    border-color: #2271b1;
+}
+
+.feuer-mannschaft-switch-item .form-check-input:checked::before {
+    transform: translateX(18px);
+}
+
+.feuer-mannschaft-switch-item .form-check-input:focus {
+    outline: none;
+    box-shadow: 0 0 0 1px #fff, 0 0 0 3px rgba(34, 113, 177, 0.35);
+}
+
+.feuer-mannschaft-switch-item .form-check-label {
+    margin: 0;
+}
+
+.feuer-mannschaft-repeater {
+    display: grid;
+    gap: 10px;
+}
+
+.feuer-mannschaft-field-panels {
+    display: grid;
+    gap: 18px;
+    margin-top: 18px;
+}
+
+.feuer-mannschaft-fields-intro {
+    margin: 0;
+}
+
+.feuer-mannschaft-field-panel {
+    background: #fff;
+    border: 1px solid #dcdcde;
+    border-radius: 12px;
+    padding: 20px 24px;
+    box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04);
+}
+
+.feuer-mannschaft-field-panel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.feuer-mannschaft-field-panel-copy .description {
+    margin: 6px 0 0;
+}
+
+.feuer-mannschaft-field-panel-title {
+    margin: 0;
+    font-size: 17px;
+    line-height: 1.35;
+}
+
+.feuer-mannschaft-field-panel-count {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 38px;
+    min-height: 38px;
+    padding: 0 12px;
+    border-radius: 999px;
+    background: #f0f6fc;
+    border: 1px solid #c3d9ee;
+    color: #0a4b78;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.feuer-mannschaft-repeater-rows {
+    display: grid;
+    gap: 10px;
+}
+
+.feuer-mannschaft-repeater-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.feuer-mannschaft-repeater-row input[type="text"] {
+    flex: 1 1 420px;
+    max-width: none;
+}
+
+.feuer-mannschaft-option-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(220px, 0.9fr) auto;
+    align-items: start;
+}
+
+.feuer-mannschaft-option-row input[type="text"],
+.feuer-mannschaft-option-row input[type="url"] {
+    width: 100%;
+}
+
+.feuer-mannschaft-inline-notice {
+    margin: 12px 0;
+}
+
+.feuer-mannschaft-repeater-actions {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.feuer-mannschaft-replacement-list {
+    display: grid;
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.feuer-mannschaft-replacement-row {
+    display: grid;
+    gap: 6px;
+    max-width: none;
+}
+
+.feuer-mannschaft-choice-panel {
+    padding: 18px 20px;
+    border: 1px solid #dcdcde;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04);
+}
+
+.feuer-mannschaft-settings-group {
+    display: grid;
+    gap: 18px;
+}
+
+.feuer-mannschaft-settings-group-header .description {
+    margin: 6px 0 0;
+}
+
+.feuer-mannschaft-custom-group-list {
+    display: grid;
+    gap: 18px;
+}
+
+.feuer-mannschaft-custom-group-header-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.feuer-mannschaft-custom-group-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px 16px;
+    margin-bottom: 16px;
+}
+
+.feuer-mannschaft-custom-group-field {
+    display: grid;
+    gap: 6px;
+}
+
+.feuer-mannschaft-custom-group-field-full {
+    grid-column: 1 / -1;
+}
+
+.feuer-mannschaft-switch-copy {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 6px 12px;
+    align-items: center;
+}
+
+.feuer-mannschaft-admin-option-link {
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.feuer-mannschaft-admin-option-link:hover,
+.feuer-mannschaft-admin-option-link:focus {
+    text-decoration: underline;
+}
+
+.feuer-mannschaft-mention-helper {
+    display: grid;
+    gap: 12px;
+}
+
+.feuer-mannschaft-mention-shortcode-list {
+    display: grid;
+    gap: 12px;
+}
+
+.feuer-mannschaft-mention-shortcode-item {
+    padding: 14px;
+    border: 1px solid #dcdcde;
+    border-radius: 10px;
+    background: #fff;
+    display: grid;
+    gap: 10px;
+}
+
+.feuer-mannschaft-mention-shortcode-top,
+.feuer-mannschaft-mention-shortcode-preview {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 12px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.feuer-mannschaft-mention-shortcode-label {
+    font-weight: 600;
+}
+
+.feuer-mannschaft-mention-shortcode-actions {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto auto;
+    gap: 8px;
+    align-items: center;
+}
+
+.feuer-mannschaft-settings .nav-tab-wrapper {
+    margin-bottom: 18px;
+}
+
+.feuer-mannschaft-settings .form-table {
+    margin-top: 18px;
+    border-collapse: separate;
+    border-spacing: 0 14px;
+}
+
+.feuer-mannschaft-settings .form-table th,
+.feuer-mannschaft-settings .form-table td {
+    padding: 18px 20px;
+    vertical-align: top;
+    background: #fff;
+    border-top: 1px solid #dcdcde;
+    border-bottom: 1px solid #dcdcde;
+}
+
+.feuer-mannschaft-settings .form-table th {
+    width: 280px;
+    border-left: 1px solid #dcdcde;
+    border-radius: 14px 0 0 14px;
+    font-weight: 600;
+}
+
+.feuer-mannschaft-settings .form-table td {
+    border-right: 1px solid #dcdcde;
+    border-radius: 0 14px 14px 0;
+    box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04);
+}
+
+.feuer-mannschaft-settings .form-table p.description {
+    margin: 10px 0 0;
+}
+
+.feuer-mannschaft-settings .form-table input[type="text"],
+.feuer-mannschaft-settings .form-table input[type="url"],
+.feuer-mannschaft-settings .form-table input[type="number"],
+.feuer-mannschaft-settings .form-table select,
+.feuer-mannschaft-settings .form-table textarea {
+    max-width: 100%;
+}
+
+.feuer-mannschaft-settings .submit {
+    margin-top: 20px;
+    padding-top: 0;
+}
+
+.feuer-mannschaft-settings-section {
+    margin-top: 18px;
+    padding: 20px 24px;
+    border: 1px solid #dcdcde;
+    border-radius: 14px;
+    background: #fff;
+    box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04);
+}
+
+.feuer-mannschaft-default-image-picker {
+    display: grid;
+    gap: 12px;
+    max-width: 520px;
+}
+
+.feuer-mannschaft-default-image-preview {
+    min-height: 120px;
+    padding: 14px;
+    border: 1px dashed #c3c4c7;
+    border-radius: 12px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feuer-mannschaft-default-image-preview-image {
+    display: block;
+    width: 100%;
+    max-width: 240px;
+    height: auto;
+    max-height: 240px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.feuer-mannschaft-default-image-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.feuer-mannschaft-shortcode-help {
+    display: grid;
+    gap: 12px;
+    margin-top: 14px;
+}
+
+.feuer-mannschaft-shortcode-item {
+    display: grid;
+    gap: 8px;
+    padding: 14px;
+    border: 1px solid #dcdcde;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.feuer-mannschaft-shortcode-item code {
+    display: inline-block;
+    width: fit-content;
+    padding: 4px 8px;
+    border-radius: 6px;
+    background: #f6f7f7;
+}
+
+.feuer-mannschaft-shortcode-item .description {
+    margin: 0;
+}
+
+.feuer-mannschaft-settings-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: center;
+    margin: 18px 0;
+}
+
+.feuer-mannschaft-settings-actions form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    margin: 0;
+}
+
+.feuer-mannschaft-archive-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+}
+
+.feuer-mannschaft-log-filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    margin: 16px 0;
+}
+
+.feuer-mannschaft-log-details {
+    white-space: pre-wrap;
+    margin: 0;
+    font-family: Consolas, Monaco, monospace;
+    font-size: 12px;
+    line-height: 1.5;
+    max-width: 520px;
+}
+
+.feuer-mannschaft-usage-panels {
+    display: grid;
+    gap: 18px;
+    margin-top: 24px;
+}
+
+.feuer-mannschaft-usage-panel {
+    background: #fff;
+    border: 1px solid #dcdcde;
+    border-radius: 12px;
+    padding: 20px 24px;
+    box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04);
+}
+
+.feuer-mannschaft-usage-panel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.feuer-mannschaft-usage-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 12px;
+    margin-bottom: 18px;
+}
+
+.feuer-mannschaft-usage-stat {
+    display: grid;
+    gap: 4px;
+    padding: 14px 16px;
+    border: 1px solid #dcdcde;
+    border-radius: 10px;
+    background: #f6f7f7;
+}
+
+.feuer-mannschaft-usage-stat strong {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #50575e;
+}
+
+.feuer-mannschaft-usage-stat span {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1d2327;
+}
+
+.feuer-mannschaft-usage-meta th {
+    width: 220px;
+}
+
+.feuer-mannschaft-profile-list .wp-list-table {
+    table-layout: auto;
+}
+
+.feuer-mannschaft-profile-list .wp-list-table .column-thumb {
+    width: 88px;
+}
+
+.feuer-mannschaft-profile-list .wp-list-table .column-thumb img,
+.feuer-mannschaft-profile-list .wp-list-table .column-thumb .feuer-mannschaft-admin-default-thumb img {
+    display: block;
+    width: 72px;
+    height: 72px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.feuer-mannschaft-profile-list .wp-list-table .column-title .row-title {
+    display: inline-block;
+    line-height: 1.35;
+    overflow-wrap: anywhere;
+}
+
+.feuer-mannschaft-profile-list .wp-list-table .column-title .post-state,
+.feuer-mannschaft-profile-list .wp-list-table .column-title .row-actions {
+    overflow-wrap: anywhere;
+}
+
+@media (max-width: 960px) {
+    .feuer-mannschaft-admin-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .feuer-mannschaft-field-panel {
+        padding: 16px;
+    }
+
+    .feuer-mannschaft-field-panel-header {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .feuer-mannschaft-switch-list-wide {
+        grid-template-columns: 1fr;
+    }
+
+    .feuer-mannschaft-repeater-row {
+        flex-wrap: wrap;
+    }
+
+    .feuer-mannschaft-option-row,
+    .feuer-mannschaft-custom-group-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .feuer-mannschaft-settings-actions,
+    .feuer-mannschaft-settings-actions form,
+    .feuer-mannschaft-log-filter,
+    .feuer-mannschaft-archive-actions,
+    .feuer-mannschaft-mention-shortcode-actions,
+    .feuer-mannschaft-usage-panel-header {
+        align-items: stretch;
+    }
+
+    .feuer-mannschaft-repeater-row {
+        align-items: stretch;
+    }
+
+    .feuer-mannschaft-mention-shortcode-actions {
+        grid-template-columns: 1fr;
+    }
+
+    .feuer-mannschaft-settings .form-table,
+    .feuer-mannschaft-settings .form-table tbody,
+    .feuer-mannschaft-settings .form-table tr,
+    .feuer-mannschaft-settings .form-table th,
+    .feuer-mannschaft-settings .form-table td {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .feuer-mannschaft-settings .form-table {
+        border-spacing: 0;
+    }
+
+    .feuer-mannschaft-settings .form-table tr {
+        margin-bottom: 14px;
+    }
+
+    .feuer-mannschaft-settings .form-table th {
+        width: 100%;
+        padding: 16px 16px 8px;
+        border-right: 1px solid #dcdcde;
+        border-radius: 14px 14px 0 0;
+        border-bottom: 0;
+    }
+
+    .feuer-mannschaft-settings .form-table td {
+        padding: 8px 16px 16px;
+        border-left: 1px solid #dcdcde;
+        border-top: 0;
+        border-radius: 0 0 14px 14px;
+    }
+
+    .feuer-mannschaft-usage-panel {
+        padding: 16px 18px;
+    }
+
+    .feuer-mannschaft-custom-group-header-actions {
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 782px) {
+    .feuer-mannschaft-profile-list .wp-list-table thead .column-thumb,
+    .feuer-mannschaft-profile-list .wp-list-table thead .column-category,
+    .feuer-mannschaft-profile-list .wp-list-table thead .column-rank,
+    .feuer-mannschaft-profile-list .wp-list-table thead .column-sort_order,
+    .feuer-mannschaft-profile-list .wp-list-table thead .column-date,
+    .feuer-mannschaft-profile-list .wp-list-table tbody .column-thumb,
+    .feuer-mannschaft-profile-list .wp-list-table tbody .column-category,
+    .feuer-mannschaft-profile-list .wp-list-table tbody .column-rank,
+    .feuer-mannschaft-profile-list .wp-list-table tbody .column-sort_order,
+    .feuer-mannschaft-profile-list .wp-list-table tbody .column-date {
+        display: none !important;
+    }
+
+    .feuer-mannschaft-profile-list .wp-list-table th#title,
+    .feuer-mannschaft-profile-list .wp-list-table .column-title {
+        width: auto !important;
+    }
+
+    .feuer-mannschaft-profile-list .wp-list-table tbody th.check-column {
+        padding: 14px 8px 14px 10px;
+        width: 2.75rem;
+    }
+
+    .feuer-mannschaft-profile-list .wp-list-table tbody td.column-title {
+        display: table-cell !important;
+        padding: 14px 42px 14px 8px;
+        vertical-align: top;
+    }
+
+    .feuer-mannschaft-profile-list .wp-list-table .column-title .row-title {
+        display: block;
+        font-size: 15px;
+        line-height: 1.35;
+        margin-bottom: 8px;
+    }
+
+    .feuer-mannschaft-profile-list .wp-list-table .row-actions {
+        position: static;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px 12px;
+        margin-top: 6px;
+    }
+
+    .feuer-mannschaft-profile-list .wp-list-table .toggle-row {
+        top: 8px;
+        right: 4px;
+    }
+
+    .feuer-mannschaft-profile-list .wp-list-table .column-title .post-state {
+        display: inline-block;
+        margin-left: 0;
+    }
+}

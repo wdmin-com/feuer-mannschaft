@@ -1,0 +1,17 @@
+{
+  "name": "Feuer-Mannschaft",
+  "version": "2.3.40",
+  "homepage": "https://wdmin.com/plugins/feuer-mannschaft/",
+  "download_url": "https://wdmin.com/plugins/feuer-mannschaft/release/2.3.40/feuer-mannschaft.zip",
+  "author": "<a href=\"https://wdmin.com\">Walter Faerber</a>",
+  "author_profile": "https://wdmin.com",
+  "requires": "6.0",
+  "requires_php": "8.0",
+  "tested": "",
+  "last_updated": "2026-04-19 14:25:00",
+  "sections": {
+    "description": "<p>Feuer-Mannschaft verwaltet Mitgliederprofile als normale WordPress-Beitraege inklusive Galerie, Archivierung, Listenfeldern und Frontend-Templates.</p>",
+    "installation": "<ol><li>ZIP-Datei <code>feuer-mannschaft.zip</code> in den versionsbezogenen Ordner <code>https://wdmin.com/plugins/feuer-mannschaft/release/2.3.40/</code> hochladen.</li><li><code>update.json</code> im Hauptordner <code>https://wdmin.com/plugins/feuer-mannschaft/</code> aktualisieren.</li><li>Im WordPress-Backend auf der Plugin-Seite die Aktualisierung ausfuehren.</li></ol>",
+    "changelog": "<h4>2.3.40</h4><ul><li>In der mobilen WordPress-Adminliste bleibt das Teilnehmerfoto jetzt sichtbar und sitzt kompakt links neben Name und Aktionen.</li><li>Die Bearbeitungsansicht der Teilnehmerprofile wird auf schmalen Displays auf volle Breite gestreckt.</li><li>Auch die Fotogalerie der Profilbearbeitung stapelt sich mobil jetzt einspaltig statt nur halbbreit.</li></ul>"
+  }
+}
