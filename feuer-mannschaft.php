@@ -3,7 +3,7 @@
  * Plugin Name: Feuer-Mannschaft
  * Plugin URI: https://wdmin.com/plugins/feuer-mannschaft/
  * Description: Mannschaft verwaltet Teilnehmerprofile als eigenen WordPress-Inhaltstyp mit Fotoverwaltung, Kategorien, Archivstatus und Frontend-Ausgabe.
- * Version: 2.7.15
+ * Version: 2.7.16
  * Author: Walter Faerber
  * Author URI: https://wdmin.com/
  * License: Proprietary - personal permission required
@@ -17,7 +17,7 @@ if (! defined('ABSPATH')) {
     exit;
 }
 
-define('FEUER_MANNSCHAFT_VERSION', '2.7.15');
+define('FEUER_MANNSCHAFT_VERSION', '2.7.16');
 define('FEUER_MANNSCHAFT_PLUGIN_FILE', __FILE__);
 define('FEUER_MANNSCHAFT_PLUGIN_DIR', plugin_dir_path(__FILE__));
 define('FEUER_MANNSCHAFT_PLUGIN_URL', plugin_dir_url(__FILE__));

@@ -1,5 +1,11 @@
 # Feuer-Mannschaft Plugin Historie
 
+## Version 2.7.16
+
+- Admin-Oberflächen vereinheitlicht: verschachtelte Rahmen und Karten entfernt, Gruppen klar durch Überschriften und dezente Trennlinien gegliedert
+- Profilbearbeitung, Einstellungsseiten, Listen, Medien und Erweiterungsbereiche verwenden ein konsistentes, responsives WordPress-Admin-Layout
+- Bedienelemente und Fokuszustände stärker an die nativen WordPress-Farben angepasst
+
 ## Version 2.7.15
 
 - Funktion ist optional: Profile gewöhnlicher Mitglieder ohne zusätzliche Aufgabe können erstellt, veröffentlicht und aus dem Archiv reaktiviert werden

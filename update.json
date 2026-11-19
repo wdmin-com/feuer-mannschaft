@@ -1,18 +1,18 @@
 {
   "name": "Feuer-Mannschaft",
-  "version": "2.7.15",
+  "version": "2.7.16",
   "homepage": "https://wdmin.com/plugins/feuer-mannschaft/",
-  "download_url": "https://wdmin.com/plugins/feuer-mannschaft/release/2.7.15/feuer-mannschaft.zip",
-  "package_sha256": "477f592cb324c41ddab2a12ff28e21e0ef7050bc488ebce293334d3200d8212f",
+  "download_url": "https://wdmin.com/plugins/feuer-mannschaft/release/2.7.16/feuer-mannschaft.zip",
+  "package_sha256": "7a8e52a7a45f3aca82b97a1e55178ecd22f413795e603354c555560dbeb3c25e",
   "author": "<a href=\"https://wdmin.com\">Walter Faerber</a>",
   "author_profile": "https://wdmin.com",
   "requires": "7.1",
   "requires_php": "8.1",
   "tested": "7.1.3",
-  "last_updated": "2026-11-19 12:36:00",
+  "last_updated": "2026-11-19 13:08:28",
   "sections": {
     "description": "<p>Feuer-Mannschaft verwaltet Teilnehmerprofile, Mannschaftslisten, Karten und Galerien. Die Profilerfassung führt Redakteure übersichtlich durch Stammdaten, Qualifikationen und optionale Angaben.</p>",
     "installation": "<ol><li>ZIP-Datei <code>feuer-mannschaft.zip</code> hochladen.</li><li>Plugin aktivieren oder aktualisieren.</li><li>Vor einem Produktivimport zuerst Dry Run und Backup ausfuehren.</li></ol>",
-    "changelog": "<h4>2.7.13</h4><ul><li>Status WordPress und Mitgliedsphase für stabile Wechsel zwischen Entwurf und Aktiv synchronisiert.</li><li>Freigabebereich zeigt Status und fehlende Pflichtangaben direkt in der Bearbeitungsseite.</li><li>Status, Dokumente, Struktur, Sichtbarkeit, Bilder und SEO einheitlich und responsiv gestaltet.</li><li>Open-Graph-Bild kann direkt aus der Mediathek gewählt werden.</li></ul><h4>2.7.12</h4><ul><li>Status, Lebenszyklusphase und Archivdatum bei Wechseln zwischen Entwurf, Archiv und Aktiv synchronisiert.</li><li>Fehlgeschlagene Wechsel behalten den bisherigen Zustand; unvollständige Profile zeigen die fehlenden Pflichtangaben.</li><li>Austrittsphase wird nur bei veröffentlichten Profilen gesetzt.</li></ul><h4>2.7.11</h4><ul><li>Funktions-Shortcodes für einzelne Amtsträger und Verantwortliche mit Stellvertretung ergänzt.</li><li>Ist die Hauptfunktion unbesetzt, wird nur das aktive Profil der Stellvertretung angezeigt.</li><li>Die Karten verwenden die Listenvorlage und globalen Anzeigeeinstellungen der Mannschaftsübersicht.</li></ul><h4>2.7.10</h4><ul><li>Der Browser-Seitentitel übernimmt das eingestellte Namensformat der Mitgliederprofile und behält den Website-Titelzusatz.</li></ul>"
+    "changelog": "<h4>2.7.16</h4><ul><li>Admin-Oberflächen vereinheitlicht und verschachtelte Rahmen entfernt.</li><li>Profilbearbeitung, Einstellungen, Listen und Medien klarer und responsiv gestaltet.</li><li>Bedienelemente und Fokuszustände an WordPress-Standards angepasst.</li></ul><h4>2.7.15</h4><ul><li>Funktion ist für Mitgliederprofile optional.</li><li>Profile ohne Funktion können erstellt, veröffentlicht und aus dem Archiv reaktiviert werden.</li></ul><h4>2.7.14</h4><ul><li>Profilbearbeitung auf einer Seite mit klar markierten Pflichtangaben.</li><li>Direktlinks zu den Bereichen und zum Speicherbereich ergänzt.</li></ul>"
   }
 }
